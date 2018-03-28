@@ -26,6 +26,7 @@ public class Library {
 	private String homePage;
 	private String opacAddr;
 	private String isbnQuery;
+	private String parser;
 	private Timestamp addedTime= Timestamp.from(Calendar.getInstance().toInstant());
 	private boolean active;
 	
